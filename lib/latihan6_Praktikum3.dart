@@ -23,12 +23,13 @@ class UserList extends StatelessWidget {
     {
       "nama": "Dwi Septiajayanti",
       "hobi": "Bersepeda",
-      "foto": "assets/john_doe.jpg"
+      "foto": "https://i.mydramalist.com/6BVYd_5_c.jpg"
     },
     {
       "nama": "Jerome Polin",
       "hobi": "Ngoding",
-      "foto": "assets/jane_smith.jpg"
+      "foto":
+          "https://asset.kompas.com/crops/sew-Wqp_ntWRCcegiKG-rljYWTs=/0x29:720x509/750x500/data/photo/2021/11/15/6191a30925f6b.png"
     },
   ];
 
@@ -59,7 +60,7 @@ class UserCard extends StatelessWidget {
     return Card(
       child: ListTile(
         leading: CircleAvatar(
-          backgroundImage: AssetImage(foto),
+          backgroundImage: NetworkImage(foto),
         ),
         title: Text(nama),
         subtitle: Text(hobi),
