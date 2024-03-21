@@ -59,10 +59,10 @@ class MyApp extends StatelessWidget {
                 children: List.generate(4, (index) {
                   // Example owl image URLs
                   List<String> owlImages = [
-                    "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg",
-                    "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg",
-                    "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg",
-                    "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg",
+                    "https://tse2.mm.bing.net/th?id=OIP._eYae0h4XZD2aB0eXrWqCQHaFy&pid=Api&P=0&h=180",
+                    "https://tse2.mm.bing.net/th?id=OIP._eYae0h4XZD2aB0eXrWqCQHaFy&pid=Api&P=0&h=180",
+                    "https://tse2.mm.bing.net/th?id=OIP._eYae0h4XZD2aB0eXrWqCQHaFy&pid=Api&P=0&h=180",
+                    "https://tse2.mm.bing.net/th?id=OIP._eYae0h4XZD2aB0eXrWqCQHaFy&pid=Api&P=0&h=180",
                   ];
                   return Padding(
                     padding: const EdgeInsets.all(8.0),
